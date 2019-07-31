@@ -1,6 +1,6 @@
 # Before
 
-'''
+```html
 <div id="forgotpassword" class="modal forgotpassword" role="dialog">
                     <div class="modal-dialog ModalDialog">
                       <div class="modal-content ModalContent">
@@ -23,12 +23,11 @@
                         </div>
                     </div>
                   </div>
-
-'''
+```
 
 # After
 
-'''
+```html
 <div className={ "modal " + classes.forgotpassword} id="forgotpassword" role="dialog">
     <div className={ "modal-dialog " + classes.ModalDialog}>
         <div className={ "modal-content " + classes.ModalContent}>
@@ -51,4 +50,4 @@
         </div>
     </div>
 </div>
-'''
+```
