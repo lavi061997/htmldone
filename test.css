@@ -1,0 +1,82 @@
+.forgotpassword {
+    z-index: 9999999999;
+    padding-right: 0px !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.53);
+    display: block;
+    .ModalDialog{
+      transform: translateY(-50%) !important;
+      top: 50%;
+      margin: 0 auto;
+      animation-name: modalAnimation;
+      animation-duration:300ms;
+    .ModalContent{
+      .ModalHeader{
+        border-bottom: none;
+        padding-bottom: 0px;
+        .ModalHeading {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #011627;
+            border-bottom: 1px solid;
+            border-color: #f72d57;
+            padding-bottom: 15px;
+            text-align: center;
+            width: 100%;
+            @media only screen and (max-width:767px){
+
+            }
+        }
+      }
+      .otpSection {
+          padding-right: 50px;
+          padding-left: 50px;
+          padding-bottom: 10px;
+          @media only screen and (max-width:767px){
+            padding-right:20px;
+            padding-left: 20px;
+          }
+          .formcover{
+            .RgNUmber {
+              font-weight: 500;
+              margin-top: 18px;
+              font-size: .950rem;
+              margin-bottom: 18px;
+            }
+            .enterOtp {
+                -moz-border-radius: 30px;
+                -webkit-border-radius: 30px;
+                border-radius: 30px;
+                height: 45px;
+                padding: 10px 20px;
+                outline: none !important;
+                box-shadow: none !important;
+                font-size: 1rem;
+            }
+            .enterOtp::-webkit-input-placeholder { 
+                font-size: .85rem;
+              }
+              .enterOtp::-moz-placeholder {
+                font-size: .85rem;
+              }
+              .enterOtp:-ms-input-placeholder { 
+                font-size: .85rem;
+              }
+            .btnsubmit {
+                width:100%;
+                -moz-border-radius: 0;
+                -webkit-border-radius: 0;
+                border-radius: 0;
+                text-decoration: none;
+                color: #fff !important;
+                background-color:#f72d57 !important;
+                box-shadow: none;
+                border-color:#f72d57 !important;
+            }
+          }
+        }
+    }
+  }
+}
